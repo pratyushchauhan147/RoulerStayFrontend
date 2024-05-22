@@ -26,7 +26,7 @@ export default function Home({hotels}) {
   return (
       <div>
           <Head>
-              <title>Bookit</title>
+              <title>RoulerStay</title>
           </Head>
 
           {/* Navbar */}
