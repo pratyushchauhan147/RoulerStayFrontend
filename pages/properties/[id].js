@@ -90,7 +90,7 @@ console.log(id)
       </Head>
 
             <Navbar sedisa={false} className="sticky"></Navbar>
-            {wait? <div className=" h-full flex-col w-full fixed top-0 flex justify-center items-center left-0 bg-blue-600  "> <h1 className=" font-semibold text-white"> Booking Under progress Do not Refresh</h1> <Image src={"/loading.gif"} width={200} height={200} className="  p-6" ></Image> </div>: <div className=" hidden"></div> }
+            {wait? <div className=" h-full flex-col fixed top-0 flex justify-center items-center left-0 bg-blue-600  "> <h1 className=" font-semibold text-white"> Booking Under progress Do not Refresh</h1> <Image src={"/loading.gif"} width={200} height={200} className="  p-6" ></Image> </div>: <div className=" hidden"></div> }
             <div className={" flex items-center flex-col"}>
                 <div className={(wait?"hidden":"")+"center-container"}>
                     
