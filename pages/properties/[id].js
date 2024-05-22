@@ -105,7 +105,7 @@ console.log(id)
                         <div className="infomation  w-full">
                         <h1 className="md:lg:text-[64px] text-[40px]   font-semibold color-text">{property.title}</h1>
                        <div className="flex md:flex-row justify-between flex-col item-center">
-                        <div className=" sm:w-full md:lg:w-4/5  h-96 overflow-scroll  ">
+                        <div className=" sm:w-full md:lg:w-4/5  h-auto overflow-scroll  ">
                             {property.description}
                         </div>
                         <div className="">
