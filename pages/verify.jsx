@@ -32,7 +32,7 @@ const handlemessage = (e) =>{
     
     const token = localStorage.getItem("token")
     settok(token)
-    axios.post('http://127.0.0.1:8000/api/verify/',{
+    axios.post('https://pratyushchauhan147.pythonanywhere.com/api/verify/',{
       message:otp
       },{headers:{Authorization: `Token ${token}`}} )
       .then((response)=> {
