@@ -1,0 +1,60 @@
+.h-full{
+    height: 100%;
+}
+.Login{
+    scroll-behavior: smooth;
+}
+
+.left{
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 680px;
+
+    background-image: url("../../public/Login.png");
+    background-attachment: fixed;
+    background-size: fill;
+
+  
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 90px;
+    padding-top: 112px;
+}
+.loginbox{
+    width: 610px;
+height: 520px;
+display: flex;
+align-items: center;  
+font-family: 'Montserrat', sans-serif;
+flex-direction: column;
+text-align: center;
+flex-shrink: 0;
+margin-top: 1px;
+}
+.center-text{
+    align-items: center;
+    
+    text-align: center;
+}
+.color-text{
+    color: #252B42;
+
+}
+.color-text-light{
+    color: #252B42;
+
+}
+.inputbox{
+    display: flex;flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 12px;
+}
+.input{
+    margin: 40px;
+}

@@ -1,0 +1,29 @@
+.text-blue{
+    color: #1681FF;
+
+}
+.text-orange{
+    color: #FF6B00;
+
+}
+.bg-blue{
+    background-color: #1681FF;
+
+}
+.bg-orange{
+    background-color:#FF6B00;
+
+}
+.text-purple{
+    color: #81037f;
+
+}
+
+
+.bg-purple{
+    background-color: #81037f;
+
+}
+.text-inter{
+    font-family: Inter;
+}
